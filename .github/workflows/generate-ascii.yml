@@ -5,7 +5,7 @@ on:
     
 jobs:
      ascii_job:
-        runs-on: unbuntu-latest
+        runs-on: unbuntu-latest 
         steps:
         - name: Checkout Repo
           uses: actions/checout@v4
